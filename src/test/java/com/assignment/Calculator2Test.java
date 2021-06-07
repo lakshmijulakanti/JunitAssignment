@@ -14,7 +14,7 @@ class Calculator2Test {
 
         System.out.println("This is a calculator test");
     }
-    @Test
+   /* @Test
     void testAdd(){
         assertEquals(3,calculator2.add(1,2));
     }
@@ -34,7 +34,7 @@ class Calculator2Test {
     void testReverse(){
 
         assertEquals("tac",calculator2.reverse("cat"));
-    }
+    }*/
     @Test
     void testQuote(){
         String str = calculator2.quote();
@@ -58,7 +58,7 @@ class Calculator2Test {
         calculator2.divide(10,5);
         calculator2.reverse("cat");
         calculator2.quote();
-        assertEquals(12,calculator2.getCounter());
+        assertEquals(6,calculator2.getCounter());
     }
 
 }

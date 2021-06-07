@@ -15,23 +15,23 @@ class BookTest {
         System.out.println("This is a Book Test");
     }
 
-    @Test
+    /*@Test
     @Order(1)
     void testObjectCreated(){
         assertNotNull(book);
         assertEquals("Testing",book.getTitle());
         assertEquals(467,book.getPages());
         assertEquals("Alexander",book.getAuthor());
-    }
-    @Test
+    }*/
+    /*@Test
     @Order(2)
     void testAssertAll(){
         assertAll("This is to test all asserts are true",
                 ()-> assertEquals("Testing",book.getTitle()),
                 () -> assertEquals(467,book.getPages()),
                 () -> assertEquals("Alexander",book.getAuthor()));
-    }
-    @Test
+    }*/
+    /*@Test
     @Order(3)
     void testSetTitle(){
         System.out.println("Set new title for the book");
@@ -39,8 +39,8 @@ class BookTest {
         book.setTitle(title);
         assertEquals(title,book.getTitle());
         assertEquals("Requirement Analysis",book.getTitle());
-    }
-    @Test
+    }*/
+    /*@Test
     @Order(4)
     void testSetPages(){
         System.out.println("This is to set pages for the book");
@@ -48,8 +48,8 @@ class BookTest {
         book.setPages(pages);
         assertEquals(pages,book.getPages());
         assertEquals(600,book.getPages());
-    }
-    @Test
+    }*/
+   /* @Test
     @Order(5)
     void testSetAuthor(){
         System.out.println("This is to set author for the book");
@@ -57,7 +57,7 @@ class BookTest {
         book.setAuthor(author);
         assertEquals(author,book.getAuthor());
         assertEquals("Imran Shah",book.getAuthor());
-    }
+    }*/
     @Test
     @Order(6)
 

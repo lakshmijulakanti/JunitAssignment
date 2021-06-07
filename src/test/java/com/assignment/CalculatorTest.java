@@ -19,27 +19,27 @@ class CalculatorTest {
 
         System.out.println("This is a Calculator test");
     }
-    @Test
+   /* @Test
     @Order(1)
     void testSetFirstValue(){
         double firstValue = 60.0;
         calculator.setFirstValue(firstValue);
         assertEquals(60.0,calculator.getFirstValue());
-    }
-    @Test
+    }*/
+    /*@Test
     @Order(2)
     void testSetSecondValue(){
         double secondValue = 70.0;
         calculator.setSecondValue(secondValue);
         assertEquals(70.0,calculator.getSecondValue());
-    }
-    @Test
+    }*/
+    /*@Test
     @Order(3)
     void testSetResult(){
         double result = 130.0;
         calculator.setResult(result);
         assertEquals(130.0,calculator.getResult());
-    }
+    }*/
     @Test
     @Order(4)
     void testAdditionExecute(){
@@ -64,14 +64,14 @@ class CalculatorTest {
         double mul = calculator.execute('m');
         assertEquals(1800.0,mul);
     }
-    @Test
+    /*@Test
     @Order(7)
     void testDivisionExecute(){
         calculator.setFirstValue(firstValue);
         calculator.setSecondValue(secondValue);
         double div1 = calculator.execute('d');
         assertEquals(2.0,div1);
-    }
+    }*/
     @Test
     @Order(8)
     @DisplayName("This is the test for the second option in division")
