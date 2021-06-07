@@ -58,7 +58,7 @@ class Calculator2Test {
         calculator2.divide(10,5);
         calculator2.reverse("cat");
         calculator2.quote();
-        assertEquals(7,calculator2.getCounter());
+        assertEquals(6,calculator2.getCounter());
     }
 
 }
